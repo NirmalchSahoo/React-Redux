@@ -1,15 +1,22 @@
 {
   "name": "redux-demo",
   "version": "1.0.0",
+  "description": "A demo project to showcase redux-thunk integration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "redux",
+    "redux-thunk",
+    "middleware"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "redux": "^5.0.1"
+    "axios": "^1.7.7",
+    "redux": "^5.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^3.1.0"
   }
 }
